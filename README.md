@@ -1,5 +1,8 @@
 # Osservatorio Collaudolab — dati aperti sui robot tagliaerba
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21918355.svg)](https://doi.org/10.5281/zenodo.21918355)
+[![Licenza: CC BY 4.0](https://img.shields.io/badge/licenza-CC%20BY%204.0-informational.svg)](https://creativecommons.org/licenses/by/4.0/deed.it)
+
 Dati grezzi delle rilevazioni pubblicate su
 **[collaudolab.com/osservatorio](https://www.collaudolab.com/osservatorio)**.
 
@@ -78,10 +81,22 @@ non si riscrive a posteriori.
 > Collaudolab, «Le garanzie dei robot tagliaerba: quanto coprono davvero»,
 > rilevazione agosto 2026,
 > <https://www.collaudolab.com/osservatorio/garanzie-robot-tagliaerba>
+> (DOI: 10.5281/zenodo.21918355)
 
 Il file `CITATION.cff` in questo repository fa comparire il pulsante
 **"Cite this repository"** in cima alla pagina GitHub, con la citazione già
 formattata in BibTeX e APA.
+
+### Quale dei due DOI
+
+Zenodo ne conia due, e servono a cose diverse:
+
+| DOI | Cosa identifica | Quando usarlo |
+|---|---|---|
+| [`10.5281/zenodo.21918355`](https://doi.org/10.5281/zenodo.21918355) | Il deposito nel suo insieme | **Quasi sempre.** Risolve all'edizione più recente, quindi una citazione resta valida quando la rilevazione viene rieseguita |
+| [`10.5281/zenodo.21918356`](https://doi.org/10.5281/zenodo.21918356) | La sola versione `v2026.08.13` | Quando serve inchiodare l'analisi ai numeri di quel giorno, per esempio in un lavoro che li rielabora |
+
+Nel dubbio, il primo.
 
 ## Contatti
 

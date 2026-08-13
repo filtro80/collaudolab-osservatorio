@@ -19,6 +19,20 @@ url: "https://www.collaudolab.com/osservatorio"
 repository-code: "https://github.com/filtro80/collaudolab-osservatorio"
 version: "2026.08.13"
 date-released: "2026-08-13"
+# Il concept DOI, non quello di versione: risolve sempre all'edizione più
+# recente, quindi una citazione generata da questo file resta valida anche dopo
+# che la rilevazione è stata rieseguita.
+doi: "10.5281/zenodo.21918355"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21918355"
+    description: "Concept DOI — tutte le edizioni, risolve alla più recente"
+  - type: doi
+    value: "10.5281/zenodo.21918356"
+    description: "DOI della versione v2026.08.13"
+  - type: url
+    value: "https://www.collaudolab.com/osservatorio/garanzie-robot-tagliaerba"
+    description: "Analisi che accompagna i dati sulle garanzie"
 keywords:
   - robot tagliaerba
   - tosaerba robotizzato
