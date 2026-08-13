@@ -40,8 +40,14 @@ ottiene **senza dover fare nulla**.
 | `mesi_pubblicizzati` | Massimo che il produttore pubblicizza |
 | `scarto_mesi` | Differenza fra i due, cioè quanto della promessa è condizionato |
 | `condizioni` | Cosa serve fare per ottenere il massimo pubblicizzato |
+| `perimetro_pubblicizzato` | A quale parte del robot si applica il massimo pubblicizzato, quando non è la macchina intera. Vuoto quando lo è |
 | `fonte` | Pagina del produttore da cui viene il dato |
 | `verificato_il` | Data della lettura (ISO 8601) |
+
+`condizioni` e `perimetro_pubblicizzato` rispondono a domande diverse e vanno
+lette insieme: la prima dice cosa deve fare l'acquirente, la seconda su cosa
+vale il numero. Mammotion è l'unico caso in cui pesa la seconda — dichiara 3
+anni sulla sola batteria, con il resto del robot a 1 anno.
 
 **Il risultato in una riga:** 8 marche su 10 non concedono un solo mese oltre i
 24 previsti dalla legge italiana, e le coperture pubblicizzate fino a 6 anni
