@@ -49,6 +49,37 @@ lette insieme: la prima dice cosa deve fare l'acquirente, la seconda su cosa
 vale il numero. Mammotion è l'unico caso in cui pesa la seconda — dichiara 3
 anni sulla sola batteria, con il resto del robot a 1 anno.
 
+### `dati/app-robot-tagliaerba.csv`
+
+Le valutazioni delle app companion con cui i robot si installano, si mappano e
+si avviano, lette sulle schede ufficiali dei due store con locale italiano.
+
+- **Pagina:** <https://www.collaudolab.com/osservatorio/app-robot-tagliaerba>
+- **Campione:** 15 app di 10 marche
+- **Rilevazione:** letture fra il 9 e l'11 agosto 2026
+- **Righe:** 15, una per app
+
+| Colonna | Contenuto |
+|---|---|
+| `marca` | Marca del robot che l'app serve |
+| `app` | Nome dell'app come pubblicato sullo store |
+| `ruolo` | `principale` se serve i modelli a catalogo, `secondaria` per altre generazioni |
+| `sviluppatore` | Chi la pubblica, che non sempre coincide con la marca |
+| `voto_play` / `valutazioni_play` | Voto e consistenza del campione su Google Play |
+| `voto_app_store` / `valutazioni_app_store` | Gli stessi due dati su App Store |
+| `scarto_fra_store` | Differenza fra i due voti, solo quando **entrambi** i campioni arrivano a 50 valutazioni |
+| `voto_pesato` | Media dei due store pesata per numero di valutazioni: è il valore che entra nel punteggio dei robot |
+| `perimetro` | Quali modelli serve quell'app |
+
+**I due voti restano colonne separate, mai fusi in una media.** Lo scarto fra
+gli store è spesso il dato più interessante: Ambrogio Remote prende 1,6 su
+Google Play e 3,6 su App Store, su 1.320 e 1.300 valutazioni.
+
+Un campo vuoto significa che quel dato non è pubblicato, mai zero: uno zero in
+una colonna di voti si leggerebbe come un giudizio pessimo invece che come
+un'assenza. `scarto_fra_store` è vuoto anche quando uno dei due campioni è
+troppo piccolo per un confronto — 1,8 dato da sei persone descrive sei persone.
+
 **Il risultato in una riga:** 8 marche su 10 non concedono un solo mese oltre i
 24 previsti dalla legge italiana, e le coperture pubblicizzate fino a 6 anni
 richiedono tutte una registrazione a termine o tagliandi di manutenzione a
@@ -100,9 +131,22 @@ Zenodo ne conia due, e servono a cose diverse:
 | DOI | Cosa identifica | Quando usarlo |
 |---|---|---|
 | [`10.5281/zenodo.21918355`](https://doi.org/10.5281/zenodo.21918355) | Il deposito nel suo insieme | **Quasi sempre.** Risolve all'edizione più recente, quindi una citazione resta valida quando la rilevazione viene rieseguita |
-| [`10.5281/zenodo.21918356`](https://doi.org/10.5281/zenodo.21918356) | La sola versione `v2026.08.13` | Quando serve inchiodare l'analisi ai numeri di quel giorno, per esempio in un lavoro che li rielabora |
+| [`10.5281/zenodo.21919867`](https://doi.org/10.5281/zenodo.21919867) | La sola versione `v2026.08.13.2` | Quando serve inchiodare l'analisi ai numeri di quel giorno, per esempio in un lavoro che li rielabora |
 
 Nel dubbio, il primo.
+
+**Le rilevazioni condividono lo stesso concept DOI**, perché condividono il
+deposito: Zenodo archivia il repository, non il singolo file. Il DOI dice
+"questi dati stanno in questo archivio", e la pagina della rilevazione dice
+quale file guardare.
+
+### Versioni pubblicate
+
+| Versione | DOI | Cosa cambia |
+|---|---|---|
+| `v2026.08.13` | `…21918356` | Prima edizione, solo garanzie |
+| `v2026.08.13.1` | `…21918965` | Correzione Mammotion: i 3 anni coprono la sola batteria. Aggiunta la colonna `perimetro_pubblicizzato` |
+| `v2026.08.13.2` | `…21919867` | Aggiunto il dataset sulle app |
 
 ## Contatti
 
