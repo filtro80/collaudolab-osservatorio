@@ -1,0 +1,29 @@
+# Fa comparire il pulsante "Cite this repository" in cima alla pagina GitHub,
+# con la citazione già pronta in BibTeX e APA. È la stessa logica del blocco
+# "come citare" sulle pagine del sito: chi ha la stringa pronta cita, chi deve
+# comporla spesso non cita affatto.
+cff-version: 1.2.0
+message: "Se usi questi dati, cita la rilevazione come indicato di seguito."
+title: "Osservatorio Collaudolab — dati aperti sui robot tagliaerba"
+abstract: >-
+  Rilevazioni periodiche sul mercato italiano dei robot tagliaerba, con campione,
+  metodo e data di misura dichiarati. La prima edizione misura la distanza fra la
+  garanzia che i produttori pubblicizzano e quella che l'acquirente ottiene senza
+  dover compiere alcuna azione, su 136 modelli di 10 marche.
+type: dataset
+authors:
+  - name: "Collaudolab"
+    website: "https://www.collaudolab.com"
+license: CC-BY-4.0
+url: "https://www.collaudolab.com/osservatorio"
+repository-code: "https://github.com/filtro80/collaudolab-osservatorio"
+version: "2026.08.13"
+date-released: "2026-08-13"
+keywords:
+  - robot tagliaerba
+  - tosaerba robotizzato
+  - garanzia legale di conformità
+  - Codice del Consumo
+  - tutela del consumatore
+  - mercato italiano
+  - dati aperti

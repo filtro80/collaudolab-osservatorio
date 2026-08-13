@@ -1,0 +1,35 @@
+{
+  "title": "Osservatorio Collaudolab — dati aperti sui robot tagliaerba",
+  "description": "<p>Rilevazioni periodiche sul mercato italiano dei robot tagliaerba, con campione, metodo e data di misura dichiarati.</p><p>La prima edizione misura la distanza fra la garanzia che i produttori pubblicizzano e quella che l'acquirente ottiene senza dover compiere alcuna azione, su 136 modelli di 10 marche. Risultato: 8 marche su 10 non concedono un solo mese oltre i 24 previsti dalla garanzia legale di conformità italiana (Codice del Consumo, artt. 128-135), e le coperture pubblicizzate fino a 6 anni richiedono tutte una registrazione a termine oppure tagliandi di manutenzione a pagamento.</p><p>Le fonti sono sempre pagine dei produttori, mai di rivenditori, e ogni riga porta la propria fonte con la data di lettura.</p>",
+  "upload_type": "dataset",
+  "language": "ita",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "Collaudolab"
+    }
+  ],
+  "keywords": [
+    "robot tagliaerba",
+    "tosaerba robotizzato",
+    "garanzia legale di conformità",
+    "Codice del Consumo",
+    "tutela del consumatore",
+    "mercato italiano",
+    "dati aperti"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.collaudolab.com/osservatorio/garanzie-robot-tagliaerba",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-report",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.collaudolab.com/osservatorio",
+      "relation": "isPartOf",
+      "scheme": "url"
+    }
+  ]
+}
