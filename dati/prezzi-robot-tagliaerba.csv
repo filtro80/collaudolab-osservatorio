@@ -1,0 +1,40 @@
+marca,modello,id_collaudolab,rilevazioni,primo_controllo,primo_prezzo_eur,ultimo_controllo,ultimo_prezzo_eur,minimo_periodo_eur,massimo_periodo_eur,minimo_30_giorni_eur,variazione_pct,direzione,fuori_listino_dal
+Worx,Landroid Vision AI WR202E,worx-wr202e,17,2026-08-08,634.02,2026-11-13,499.00,499.00,636.94,499.00,-21.3,giù,
+Worx,Landroid M700 WR142E,worx-wr142e,17,2026-08-08,704.86,2026-11-13,597.57,597.16,704.86,597.49,-15.2,giù,
+Worx,Landroid Vision AI WR206E,worx-wr206e,17,2026-08-08,696.80,2026-11-13,599.00,599.00,696.80,599.00,-14.0,giù,
+Stiga,A 8v,stiga-a-8v,16,2026-08-11,1079.10,2026-11-13,989.10,989.10,1079.10,989.10,-8.3,giù,
+Honda,Miimo HRM1000,honda-miimo-hrm1000,17,2026-08-08,699.00,2026-11-13,643.08,643.08,699.00,643.08,-8.0,giù,
+Worx,Landroid Vision Cloud WR330E,worx-wr330e,17,2026-08-08,2436.88,2026-11-13,2249.10,2071.40,2436.88,2249.10,-7.7,giù,
+Gardena,Smart Sileno Sense 400,gardena-smart-sileno-sense-400,17,2026-08-08,1047.90,2026-11-13,975.00,975.00,1047.97,975.00,-7.0,giù,
+Gardena,Smart Sileno Free 1200,gardena-smart-sileno-free-1200,17,2026-08-08,1189.15,2026-11-13,1119.20,1119.20,1189.15,1119.20,-5.9,giù,
+Gardena,smart SILENO max 1200,gardena-smart-sileno-max-1200,17,2026-08-08,937.02,2026-11-13,884.96,884.96,937.02,884.96,-5.6,giù,
+Stiga,A 6v,stiga-a-6v,16,2026-08-11,899.10,2026-11-13,848.91,848.91,899.10,848.91,-5.6,giù,
+Honda,Miimo HRM2500 Live,honda-miimo-hrm2500-live,17,2026-08-08,2559.00,2026-11-13,2431.05,2431.05,2559.00,2431.05,-5.0,giù,
+Gardena,SILENO minimo 500,gardena-sileno-minimo-500,17,2026-08-08,499.00,2026-11-13,475.11,474.95,499.00,475.11,-4.8,giù,
+Honda,Miimo HRM1500 Live,honda-miimo-hrm1500-live,17,2026-08-08,959.00,2026-11-13,920.64,920.64,959.00,920.64,-4.0,giù,
+Worx,Landroid Vision Cloud 4WD WR340E,worx-wr340e,17,2026-08-08,1324.99,2026-11-13,1299.00,1299.00,1324.99,1299.00,-2.0,giù,
+Worx,Landroid Vision Cloud 4WD WR341E,worx-wr341e,17,2026-08-08,1823.99,2026-11-13,1799.00,1799.00,1823.99,1799.00,-1.4,giù,
+EGO,RM2000E,ego-rm2000e,16,2026-08-11,999.00,2026-11-13,999.00,999.00,999.00,999.00,0.0,fermo,
+EGO,RM4000E,ego-rm4000e,16,2026-08-11,1499.00,2026-11-13,1499.00,1499.00,1499.00,1499.00,0.0,fermo,
+Gardena,SILENO life 750,gardena-sileno-life-750,17,2026-08-08,792.14,2026-11-13,792.52,792.11,792.52,792.43,0.0,fermo,2026-09-12
+Gardena,smart SILENO max 1500,gardena-smart-sileno-max-1500,17,2026-08-08,1157.49,2026-11-13,1157.93,1157.46,1157.93,1157.84,0.0,fermo,
+Honda,Miimo HRM4000 Live,honda-miimo-hrm4000-live,17,2026-08-08,3099.00,2026-11-13,3099.00,3099.00,3099.00,3099.00,0.0,fermo,
+Segway,Navimow i105e,segway-navimow-i105e,17,2026-08-08,699.00,2026-11-13,699.00,699.00,699.00,699.00,0.0,fermo,
+Stiga,A 25v,stiga-a-25v,16,2026-08-11,2249.10,2026-11-13,2249.10,2249.10,2249.10,2249.10,0.0,fermo,
+Worx,Landroid Vision Cloud 4WD WR342E,worx-wr342e,17,2026-08-08,2482.92,2026-11-13,2482.92,2482.92,2482.92,2482.92,0.0,fermo,
+Worx,Landroid Vision Cloud 4WD WR344E,worx-wr344e,17,2026-08-08,3023.99,2026-11-13,3023.99,3023.99,3023.99,3023.99,0.0,fermo,
+Worx,Landroid Vision Cloud WR308E,worx-wr308e,17,2026-08-08,999.00,2026-11-13,999.00,899.01,999.00,999.00,0.0,fermo,
+Worx,Landroid Vision Cloud WR365E,worx-wr365e,17,2026-08-08,799.00,2026-11-13,799.00,799.00,799.00,799.00,0.0,fermo,
+Gardena,SILENO minimo 250,gardena-sileno-minimo-250,17,2026-08-08,431.81,2026-11-13,432.25,431.78,432.25,432.15,0.1,fermo,
+Gardena,smart SILENO max 800,gardena-smart-sileno-max-800,17,2026-08-08,860.86,2026-11-13,861.31,860.83,861.31,861.20,0.1,fermo,
+Worx,Landroid Vision Cloud WR312E,worx-wr312e,17,2026-08-08,1241.28,2026-11-13,1243.36,1241.28,1243.36,1243.36,0.2,fermo,
+Worx,Landroid Vision Cloud WR303E,worx-wr303e,17,2026-08-08,675.49,2026-11-13,678.41,672.50,678.41,678.41,0.4,fermo,
+Worx,Landroid Vision Cloud WR305E,worx-wr305e,17,2026-08-08,698.49,2026-11-13,709.59,698.49,709.59,698.49,1.6,su,
+Gardena,Smart Sileno Free 800,gardena-smart-sileno-free-800,17,2026-08-08,1195.00,2026-11-13,1221.48,1195.00,1285.77,1221.48,2.2,su,
+Gardena,SILENO city 600,gardena-sileno-city-600,17,2026-08-08,650.69,2026-11-13,686.84,614.54,686.84,686.84,5.6,su,2026-09-12
+Gardena,SILENO life 1250,gardena-sileno-life-1250,17,2026-08-08,1028.53,2026-11-13,1110.09,1028.53,1110.09,1082.66,7.9,su,2026-09-12
+Gardena,smart SILENO free 600,gardena-smart-sileno-free-600,17,2026-08-08,920.55,2026-11-13,999.00,920.55,999.00,999.00,8.5,su,2026-09-12
+Gardena,SILENO life 1000,gardena-sileno-life-1000,17,2026-08-08,863.58,2026-11-13,947.62,799.95,947.62,947.53,9.7,su,2026-09-12
+Gardena,SILENO city 250,gardena-sileno-city-250,17,2026-08-08,573.53,2026-11-13,637.25,573.53,637.25,637.25,11.1,su,2026-09-12
+Worx,Landroid Vision Cloud WR318E,worx-wr318e,17,2026-08-08,1298.41,2026-11-13,1510.36,1298.41,1510.36,1510.36,16.3,su,
+Worx,Landroid S250 WR168E,worx-wr168e,17,2026-08-08,299.00,2026-11-13,349.66,299.00,349.66,349.56,16.9,su,
